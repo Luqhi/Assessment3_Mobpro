@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Concert Tickets</string>
+    <string name="txt_judul">TIKET</string>
+    <string name="txt_jumlahTiket">Masukan Jumlah Tiket</string>
+    <string name="txt_tempatDuduk">Seat</string>
+    <string name="txtCat1">CAT 1</string>
+    <string name="txtCat2">CAT 2</string>
+    <string name="baik">GOOD</string>
+    <string name="buruk">BAD</string>
+    <string name="total_x">Total: %1$.2f</string>
+    <string name="kategori_x">Kategori: %1$s</string>
+    <string name="txtTotal">Total: 0</string>
+    <string name="txtKategori">Kualitas Tempat Duduk: </string>
+    <string name="btn_hitung">Hitung</string>
+    <string name="btn_clear">Hapus</string>
+    <string name="btn_bagikan">Bagikan</string>
+    <string name="bagikan_template">Jumlah Tiket: %1$s pcs\nSeat: %2$s\n\n%3$s\n%4$s</string>
+    <string name="jumlah_invalid">Jumlah tidak boleh kosong.</string>
+    <string name="seat_invalid">Pilih jenis seat.</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="histori">Histori</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="belum_ada_data">Belum Terdapat Data</string>
+    <string name="copyright">Concert Tickets merupakan sebuah aplikasi Android untuk menghitung total harga tiket konser yang akan dibeli, sehingga orang dapat tau berapa total harga dari jumlah tiket yang dibeli.\n\nAplikasi ini dibuat untuk Assessment 2 kelas Mobpro 1. Temukan kodenya di https://github.com/Luqmanhakim13/Assessment2_mobpro\n\nCopyright © 2023 Luqman Hakim. \nAll rights reserved.</string>
+    <string name="tanggal">13 November 2023</string>
+    <string name="total_item">Total: Rp. 10000000 - GOOD</string>
+    <string name="jumlah_item">Jumlah: 2 - Cat 1</string>
+    <string name="hasil_x">Total Harga: %1$.2f - %2$s</string>
+    <string name="data_x">Jumlah Tiket: %1$.1f - %2$s</string>
+</resources>
