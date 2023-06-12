@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_hitungFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_listFragment"
+            app:destination="@id/listKonserFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -27,4 +30,9 @@
         android:name="org.d3if0067.mobpro1.ui.histori.HistoriFragment"
         android:label="@string/histori"
         tools:layout="@layout/fragment_histori" />
+    <fragment
+        android:id="@+id/listKonserFragment"
+        android:name="org.d3if0067.mobpro1.ui.list.ListFragment"
+        android:label="@string/list_konser"
+        tools:layout="@layout/fragment_list_konser" />
 </navigation>

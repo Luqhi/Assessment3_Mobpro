@@ -30,4 +30,9 @@
     <string name="jumlah_item">Jumlah: 2 - Cat 1</string>
     <string name="hasil_x">Total Harga: %1$.2f - %2$s</string>
     <string name="data_x">Jumlah Tiket: %1$.1f - %2$s</string>
+    <string name="btn_list">List Konser</string>
+    <string name="list_konser">List Konser</string>
+    <string name="namaKonser">ColdPlay</string>
+    <string name="lokasiKonser">GBK</string>
+    <string name="koneksi_error">Koneksi error</string>
 </resources>

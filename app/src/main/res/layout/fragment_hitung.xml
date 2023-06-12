@@ -136,13 +136,23 @@
             app:layout_constraintTop_toBottomOf="@+id/totalTextView" />
 
         <Button
+            android:id="@+id/listButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kategoriTextView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
             android:id="@+id/shareButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/btn_bagikan"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/kategoriTextView"
+            app:layout_constraintTop_toBottomOf="@+id/listButton"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 

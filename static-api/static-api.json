@@ -1,0 +1,15 @@
+[
+  { "nama": "ColdPlay", "lokasi": "GBK", "imageId": "coldplay" },
+  { "nama": "Red Velvet", "lokasi": "ICE BSD", "imageId": "redvelvet" },
+  { "nama": "BABYMETAL", "lokasi": "ICE BSD", "imageId": "babymetal" },
+  { "nama": "Slank", "lokasi": "Bandung", "imageId": "slank" },
+  { "nama": "NMIXX", "lokasi": "The Kasablanka Hall", "imageId": "nmixx" },
+  { "nama": "Yura Yunita", "lokasi": "Surabaya", "imageId": "yurayunita" },
+  { "nama": "Aespa", "lokasi": "ICE BSD", "imageId": "aespa" },
+  { "nama": "HONNE", "lokasi": "Ancol", "imageId": "honne" },
+  { "nama": "Radwimps", "lokasi": "Senayan", "imageId": "radwimps" },
+  { "nama": "TXT ACT", "lokasi": "Ancol", "imageId": "txtact" },
+  { "nama": "ONE OK ROCK", "lokasi": "Ancol", "imageId": "oneokrock" },
+  { "nama": "WOODZ", "lokasi": "The Kasablanka Hall", "imageId": "woodz" },
+  { "nama": "Bruno Major", "lokasi": "GBK", "imageId": "brunomajor" }
+]
