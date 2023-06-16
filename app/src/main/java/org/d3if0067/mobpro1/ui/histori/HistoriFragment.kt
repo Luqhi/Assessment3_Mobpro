@@ -1,6 +1,8 @@
 package org.d3if0067.mobpro1.ui.histori
 
+import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -21,10 +23,23 @@ class HistoriFragment : Fragment(){
     private lateinit var binding: FragmentHistoriBinding
     private lateinit var myAdapter: HistoriAdapter
 
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        Log.i("HistoriFragment", "onAttach dijalankan")
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.i("HistoriFragment", "onCreate dijalankan")
+    }
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         binding = FragmentHistoriBinding.inflate(layoutInflater, container, false)
         setHasOptionsMenu(true)
+
+        Log.i("HistoriFragment", "onCreateView dijalankan")
+
         return binding.root
     }
 
@@ -40,6 +55,43 @@ class HistoriFragment : Fragment(){
                 View.VISIBLE else View.GONE
             myAdapter.submitList(it)
         })
+
+        Log.i("HistoriFragment", "onViewCreate dijalankan")
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.i("HistoriFragment", "onStart dijalankan")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i("HistoriFragment", "onResume dijalankan")
+    }
+
+    override fun onPause() {
+        Log.i("HistoriFragment", "onPause dijalankan")
+        super.onPause()
+    }
+
+    override fun onStop() {
+        Log.i("HistoriFragment", "onStop dijalankan")
+        super.onStop()
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        Log.i("HistoriFragment", "onDestroyView dijalankan")
+    }
+
+    override fun onDestroy() {
+        Log.i("HistoriFragment", "onDestroy dijalankan")
+        super.onDestroy()
+    }
+
+    override fun onDetach() {
+        Log.i("HistoriFragment", "onDetach dijalankan")
+        super.onDetach()
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {

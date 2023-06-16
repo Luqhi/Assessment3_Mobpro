@@ -8,7 +8,7 @@
     <string name="baik">GOOD</string>
     <string name="buruk">BAD</string>
     <string name="total_x">Total: %1$.2f</string>
-    <string name="kategori_x">Kategori: %1$s</string>
+    <string name="kategori_x">Kualitas Tempat Duduk: %1$s</string>
     <string name="txtTotal">Total: 0</string>
     <string name="txtKategori">Kualitas Tempat Duduk: </string>
     <string name="btn_hitung">Hitung</string>
@@ -35,4 +35,11 @@
     <string name="namaKonser">ColdPlay</string>
     <string name="lokasiKonser">GBK</string>
     <string name="koneksi_error">Koneksi error</string>
+    <string name="message">%1$s diklik!</string>
+
+    <string name="channel_desc">Update data tiket otomatis</string>
+    <string name="notif_title">Ada Konser Baru!!!</string>
+    <string name="notif_text">Cek sekarang biar nggak penasaran..</string>
+    <string name="channel_name">Updater</string>
+
 </resources>

@@ -1,18 +1,30 @@
 package org.d3if0067.mobpro1.ui.hitung
 
+import android.Manifest
+import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.*
+import android.widget.Button
 import android.widget.Toast
+import androidx.annotation.RequiresApi
+import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
+import org.d3if0067.mobpro1.MainActivity
 import org.d3if0067.mobpro1.R
 import org.d3if0067.mobpro1.databinding.FragmentHitungBinding
 import org.d3if0067.mobpro1.db.TiketDb
 import org.d3if0067.mobpro1.model.HasilTiket
 import org.d3if0067.mobpro1.model.KategoriTiket
+import org.d3if0067.mobpro1.ui.list.ListFragment
 
 class HitungFragment: Fragment(){
     private lateinit var binding: FragmentHitungBinding
@@ -23,22 +35,73 @@ class HitungFragment: Fragment(){
         ViewModelProvider(this, factory)[HitungViewModel::class.java]
     }
 
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        Log.i("HitungFragment", "onAttach dijalankan")
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.i("HitungFragment", "onCreate dijalankan")
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-
         binding = FragmentHitungBinding.inflate(layoutInflater, container, false)
         setHasOptionsMenu(true)
         return binding.root
+
+        Log.i("HitungFragment", "onCreateView dijalankan")
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.buttonHitung.setOnClickListener { hitungTiket() }
         binding.buttonClear.setOnClickListener { clear() }
         binding.shareButton.setOnClickListener { shareData() }
+        binding.listButton.setOnClickListener {
+            findNavController().navigate(R.id.action_hitungFragment_to_listFragment)
+        }
 
         viewModel.getHasilTiket().observe(requireActivity(), { showResult(it) })
+
+        Log.i("HitungFragment", "onViewCreate dijalankan")
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.i("HitungFragment", "onStart dijalankan")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i("HitungFragment", "onResume dijalankan")
+    }
+
+    override fun onPause() {
+        Log.i("HitungFragment", "onPause dijalankan")
+        super.onPause()
+    }
+
+    override fun onStop() {
+        Log.i("HitungFragment", "onStop dijalankan")
+        super.onStop()
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        Log.i("HitungFragment", "onDestroyView dijalankan")
+    }
+
+    override fun onDestroy() {
+        Log.i("HitungFragment", "onDestroy dijalankan")
+        super.onDestroy()
+    }
+
+    override fun onDetach() {
+        Log.i("HitungFragment", "onDetach dijalankan")
+        super.onDetach()
     }
 
     private fun shareData() {
@@ -137,4 +200,5 @@ class HitungFragment: Fragment(){
 
         return super.onOptionsItemSelected(item)
     }
+
 }

@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hitungFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="org.d3if0067.mobpro1.ui.hitung.HitungFragment">
@@ -45,10 +46,10 @@
             android:id="@+id/txt_tempatDuduk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:layout_marginStart="16dp"
-            android:textSize="18sp"
+            android:layout_marginTop="8dp"
             android:text="@string/txt_tempatDuduk"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
             app:layout_constraintStart_toStartOf="@+id/jmlhTiket_hint"
             app:layout_constraintTop_toTopOf="@+id/radioGroup" />
@@ -86,8 +87,8 @@
             android:layout_marginTop="16dp"
             android:text="@string/btn_hitung"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-            app:layout_constraintStart_toEndOf="@+id/button_clear"/>
+            app:layout_constraintStart_toEndOf="@+id/button_clear"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
         <Button
             android:id="@+id/button_clear"
@@ -142,8 +143,8 @@
             android:layout_marginTop="16dp"
             android:text="@string/btn_list"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/kategoriTextView"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kategoriTextView" />
 
         <Button
             android:id="@+id/shareButton"
@@ -151,10 +152,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/btn_bagikan"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/listButton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/listButton" />
 
         <androidx.constraintlayout.widget.Group
             android:id="@+id/buttonGroup"
