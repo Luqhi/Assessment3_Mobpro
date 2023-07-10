@@ -1,15 +1,15 @@
 [
-  { "nama": "ColdPlay", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/coldplay" },
-  { "nama": "Red Velvet", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/redvelvet" },
-  { "nama": "BABYMETAL", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/babymetal" },
-  { "nama": "Slank", "lokasi": "Bandung", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/slank" },
-  { "nama": "NMIXX", "lokasi": "The Kasablanka Hall", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/nmixx" },
-  { "nama": "Yura Yunita", "lokasi": "Surabaya", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/yurayunita" },
-  { "nama": "Aespa", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/aespa" },
-  { "nama": "HONNE", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/honne" },
-  { "nama": "Radwimps", "lokasi": "Senayan", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/radwimps" },
-  { "nama": "TXT ACT", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/txtact" },
-  { "nama": "ONE OK ROCK", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/oneokrock" },
-  { "nama": "WOODZ", "lokasi": "The Kasablanka Hall", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/woodz" },
-  { "nama": "Bruno Major", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/brunomajor" }
+  { "nama": "ColdPlay", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/coldplay.png" },
+  { "nama": "Red Velvet", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/redvelvet.png" },
+  { "nama": "BABYMETAL", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/babymetal.png" },
+  { "nama": "Slank", "lokasi": "Bandung", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/slank.png" },
+  { "nama": "NMIXX", "lokasi": "The Kasablanka Hall", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/nmixx.png" },
+  { "nama": "Yura Yunita", "lokasi": "Surabaya", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/yurayunita.png" },
+  { "nama": "Aespa", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/aespa.png" },
+  { "nama": "HONNE", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/honne.png" },
+  { "nama": "Radwimps", "lokasi": "Senayan", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/radwimps.png" },
+  { "nama": "TXT ACT", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/txtact.png" },
+  { "nama": "ONE OK ROCK", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/oneokrock.png" },
+  { "nama": "WOODZ", "lokasi": "The Kasablanka Hall", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/woodz.png" },
+  { "nama": "Bruno Major", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/brunomajor.png" }
 ]
