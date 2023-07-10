@@ -1,5 +1,5 @@
 [
-  { "nama": "ColdPlay", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/coldplay.png" },
+  { "nama": "ColdPlay", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/coldplay" },
   { "nama": "Red Velvet", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/redvelvet.png" },
   { "nama": "BABYMETAL", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/babymetal.png" },
   { "nama": "Slank", "lokasi": "Bandung", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/slank.png" },
