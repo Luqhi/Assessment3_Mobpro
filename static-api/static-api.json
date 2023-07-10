@@ -1,15 +1,15 @@
 [
-  { "nama": "ColdPlay", "lokasi": "GBK", "imageId": "coldplay" },
-  { "nama": "Red Velvet", "lokasi": "ICE BSD", "imageId": "redvelvet" },
-  { "nama": "BABYMETAL", "lokasi": "ICE BSD", "imageId": "babymetal" },
-  { "nama": "Slank", "lokasi": "Bandung", "imageId": "slank" },
-  { "nama": "NMIXX", "lokasi": "The Kasablanka Hall", "imageId": "nmixx" },
-  { "nama": "Yura Yunita", "lokasi": "Surabaya", "imageId": "yurayunita" },
-  { "nama": "Aespa", "lokasi": "ICE BSD", "imageId": "aespa" },
-  { "nama": "HONNE", "lokasi": "Ancol", "imageId": "honne" },
-  { "nama": "Radwimps", "lokasi": "Senayan", "imageId": "radwimps" },
-  { "nama": "TXT ACT", "lokasi": "Ancol", "imageId": "txtact" },
-  { "nama": "ONE OK ROCK", "lokasi": "Ancol", "imageId": "oneokrock" },
-  { "nama": "WOODZ", "lokasi": "The Kasablanka Hall", "imageId": "woodz" },
-  { "nama": "Bruno Major", "lokasi": "GBK", "imageId": "brunomajor" }
+  { "nama": "ColdPlay", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/coldplay" },
+  { "nama": "Red Velvet", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/redvelvet" },
+  { "nama": "BABYMETAL", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/babymetal" },
+  { "nama": "Slank", "lokasi": "Bandung", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/slank" },
+  { "nama": "NMIXX", "lokasi": "The Kasablanka Hall", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/nmixx" },
+  { "nama": "Yura Yunita", "lokasi": "Surabaya", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/yurayunita" },
+  { "nama": "Aespa", "lokasi": "ICE BSD", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/aespa" },
+  { "nama": "HONNE", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/honne" },
+  { "nama": "Radwimps", "lokasi": "Senayan", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/radwimps" },
+  { "nama": "TXT ACT", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/txtact" },
+  { "nama": "ONE OK ROCK", "lokasi": "Ancol", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/oneokrock" },
+  { "nama": "WOODZ", "lokasi": "The Kasablanka Hall", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/woodz" },
+  { "nama": "Bruno Major", "lokasi": "GBK", "imageId": "https://raw.githubusercontent.com/Luqmanhakim13/Assessment3_Mobpro/master/static-api/brunomajor" }
 ]
